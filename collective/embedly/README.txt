@@ -64,3 +64,4 @@ Contributors
 * Roman Kozlovskyi
 * Serhiy Valchuk
 * Clayton Parker
+* Harald Friessnegger

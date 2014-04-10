@@ -100,6 +100,12 @@
           </div>
         </div>
         <div class="field">
+          <label for="youtube_rel">Hide Related<span class="formHelp">This will tell Embedly to not show related videos when the youtube video ended.</span></label>
+          <div class="widget">
+            <input type="checkbox" name="youtube_rel" id="youtube_rel" value="" />
+          </div>
+        </div>        
+        <div class="field">
           <label for="videosrc">videosrc<span class="formHelp">Either true Embedly will use the video_src meta or Open Graph tag to create a video object to embed.</span></label>
           <div class="widget">
             <input type="checkbox" name="videosrc" id="videosrc" value="" />
@@ -123,8 +129,6 @@ The words parameter has a default value of 50 and works by trying to split the d
         </div>
       </form>
     </div>
-
-    <div class="visualClear"><!-- --></div>
 
     <form onsubmit="insertAction();return false;" action="#">
       <div class="mceActionPanel formControls">

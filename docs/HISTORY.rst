@@ -1,6 +1,13 @@
 Changelog
 =========
 
+dev
+---
+
+- Add rel=0 setting to not show related videos in
+  youtube embeds.
+  [fRiSi]
+
 2.3 - Jan 29, 2014
 ------------------
 
